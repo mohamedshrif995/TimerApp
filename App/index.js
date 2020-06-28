@@ -25,7 +25,7 @@ export default function App() {
     React.useEffect(() => {
         return () => {
             if (id) {
-                clearInterval(id);
+                clearInterval(id)
             }
         };
     }, [id]);
